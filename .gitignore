@@ -1,0 +1,92 @@
+# Logs
+logs
+*.log
+
+# Build artifacts
+target/
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Eclipse
+bin/
+tmp/
+.metadata
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+nbbuild/
+.nbattrs
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Operating System files
+*~
+*.swp
+*.swo
+
+# Application Properties with Sensitive Data
+src/main/resources/application-*.properties
+src/main/resources/application-*.yml
+src/main/resources/application-*.yaml
+!src/main/resources/application.properties
+!src/main/resources/application.yml
+!src/main/resources/application.yaml
+
+# Environment Variables and Secrets
+.env
+.env.*
+*.env
+env/
+.secret
+*.secret
+secrets/
+credentials/
+
+# JWT and Security
+src/main/resources/jwt.properties
+src/main/resources/jwt.yml
+src/main/resources/jwt.yaml
+src/main/resources/security.properties
+src/main/resources/security.yml
+src/main/resources/security.yaml
+**/jwt.secret
+**/jwt-secret.*
+**/security-config.*
+
+# Specific project files (Add if needed)
+# e.g., uploads/
+# data/ 
